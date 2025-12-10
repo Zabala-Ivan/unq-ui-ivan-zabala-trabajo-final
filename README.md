@@ -24,6 +24,11 @@ npm install
 nmp start
 
 
+5- Acceder a la pagina en el navegador
+
+http://localhost:5173
+
+
 +INSTRUCCIONES PARA JUGAR
 
 1- Inicio: Hacer click en el boton "JUGAR" 
