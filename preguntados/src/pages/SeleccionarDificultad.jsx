@@ -50,7 +50,7 @@ function DifficultySelector() {
                  ? 'send-button send-button-enabled'
                  : 'send-button'
               }
-              onClick={() => difficultySelected && navigate(`/game?difficulty=${difficultySelected}`, { replace: true })
+              onClick={() => difficultySelected && navigate(`/Juego?difficulty=${difficultySelected}`, { replace: true })
               }
               >
                 INICIAR
