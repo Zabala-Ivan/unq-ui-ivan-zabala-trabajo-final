@@ -1,6 +1,6 @@
 import './Inicio.css'
 import preguntados from '../assets/preguntados.png'
-import { useNavigate } from 'react-router'
+import { useNavigate } from 'react-router-dom'
 import '../App.css'
 
 function Inicio() {

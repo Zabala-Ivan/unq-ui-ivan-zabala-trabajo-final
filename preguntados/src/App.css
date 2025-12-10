@@ -1,23 +1,45 @@
 .container {
-  /* Ocupa toda la pantalla */
   width: 100vw;
   height: 100vh;
-
-  /* Creamos las franjas con padding */
-  padding: 40px 80px; /* 40px arriba/abajo, 80px izquierda/derecha */
-
-  /* Fondo de las franjas */
-  background-color: #4CAF50; /* color de las franjas (puede ser otro) */
-
-  /* Para que el contenido quede centrado dentro */
-  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container > * {
-  /* El área interna donde van tus páginas */
-  background-color: white; /* fondo del contenido */
+.inicio-page {
+  width: 70vw;
+  height: 90vh; /* 🔥 deja espacio arriba y abajo */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.fondo-preguntados {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 12px; /* opcional, esquinas redondeadas */
-  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* opcional, sombra */
+  object-fit: cover;
+  object-position: top;
+  z-index: 1;
+  opacity: 0.9; 
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; 
 }

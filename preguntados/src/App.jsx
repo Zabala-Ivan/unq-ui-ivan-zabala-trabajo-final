@@ -1,6 +1,6 @@
 import './App.css'
 import Inicio from './pages/Inicio'
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import SeleccionarDificultad from './pages/SeleccionarDificultad'
 import Juego from './pages/Juego'
 
