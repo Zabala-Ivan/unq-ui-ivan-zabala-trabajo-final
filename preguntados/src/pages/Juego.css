@@ -54,13 +54,13 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.success-color {
-  background: #4CAF50; /* verde para correctas */
+.success {
+  background: #4CAF50; 
   color: white;
 }
 
-.fail-color {
-  background: #e53935; /* rojo para incorrectas */
+.fail {
+  background: #e53935; 
   color: white;
 }
 
@@ -82,3 +82,4 @@
   transform: scale(1.05);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
+

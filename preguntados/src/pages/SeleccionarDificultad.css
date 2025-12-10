@@ -62,7 +62,7 @@
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  margin-top: 30px; /* 🔥 espacio arriba del botón */
+  margin-top: 30px; 
 }
 
 .send-button-enabled:hover {

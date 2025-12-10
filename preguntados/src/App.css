@@ -13,7 +13,7 @@
 
 .inicio-page {
   width: 70vw;
-  height: 90vh; /* 🔥 deja espacio arriba y abajo */
+  height: 90vh; 
   position: relative;
   display: flex;
   flex-direction: column;

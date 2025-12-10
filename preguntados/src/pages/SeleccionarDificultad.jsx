@@ -12,7 +12,7 @@ const difficultiesTranslated = {
   extreme: 'Extremo',
 }
 
-function DifficultySelector() {
+function SeleccionarDificultad() {
     const navigate = useNavigate()
     const [difficultySelected, setDifficultySelected] = useState()
     const [difficulties, setDifficulties] = useState([])
@@ -61,6 +61,6 @@ function DifficultySelector() {
     )
 }
 
-export default DifficultySelector
+export default SeleccionarDificultad
 
     
